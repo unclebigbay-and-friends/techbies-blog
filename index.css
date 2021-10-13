@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* browser reset */
+body,
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header-nav ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.header-nav ul li {
+  list-style: none;
+
+  display: inline;
+  padding: 0 15px;
+  font-size: 12px;
+}
+.header-nav ul li:nth-child(4) {
+  border-right: 2px #909090 solid;
+  line-height: 10px;
+  height: 100%;
+}
+.header-nav ul li:first-child {
+  color: green;
+}
+.header-nav ul li:last-child {
+  border: 1px solid #285ffc;
+  background: #285ffc;
+  color: white;
+  padding: 3px 7px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.header-logo {
+  padding-left: 50px;
+}
+.home h1 {
+  padding: 2.5rem 0 0 2.5rem;
+  margin: 0;
+  color: green;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+}
+.hero-info {
+  width: 40vw;
+  align-items: center;
+  text-align: center;
+}
+.hero-info h3 {
+  font-size: 1.35rem;
+  padding: 0;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.hero-info p {
+  font-size: 0.95rem;
+  text-align: none;
+  font-weight: lighter;
+  /* max-width: 400px; */
+  padding: 0 3rem;
+  margin: 0 0 2rem 0;
+}
+.btn {
+  padding: 0.3rem 0.65rem;
+  font-size: 0.7rem;
+  background: #285ffc;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}

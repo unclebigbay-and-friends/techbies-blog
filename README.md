@@ -1,5 +1,5 @@
 <h3 align="center">A group of African web designers and developers.</h3>
-<h3 align= "center" > <a href="https://github.com/ryo-ma/github-profile-trophy">alive link</a> </h3>
+<h3 align= "center" > <a href="https://unclebigbay-and-friends.github.io/techbies-blog/">Live Project Link</a> </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=izunnaya&label=Profile%20views&color=0e75b6&style=flat" alt="izunnaya" /> </p>
 

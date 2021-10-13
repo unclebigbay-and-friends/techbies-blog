@@ -1,16 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
+/* variables */
+:root {
+  --heading-text-: #00000;
+  --body-text-: #3b3b3b;
+  --white-: #ffffff;
+  --blue-: #2962ff;
+  --warning-: #ff6535;
+  --green-: #00af65;
+  --light-green-: #0ee78c;
+}
 /* browser reset */
 body,
 html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .header-nav ul a {
   text-decoration: none;
-  color: black;
+  color: var(--header-text);
   font-weight: bold;
 }
 .header-nav ul li {
@@ -29,9 +39,9 @@ html {
   color: green;
 }
 .header-nav ul li:last-child {
-  border: 1px solid #285ffc;
-  background: #285ffc;
-  color: white;
+  border: 1px solid var(--blue-);
+  background: var(--blue-);
+  color: var(--white-);
   padding: 3px 7px;
   margin-right: 20px;
   border-radius: 3px;
@@ -48,7 +58,7 @@ html {
 .home h1 {
   padding: 2.5rem 0 0 2.5rem;
   margin: 0;
-  color: green;
+  color: var(--green-);
 }
 .hero-section {
   display: flex;
@@ -79,7 +89,7 @@ html {
 .btn {
   padding: 0.3rem 0.65rem;
   font-size: 0.7rem;
-  background: #285ffc;
+  background: var(--blue-);
   border-radius: 3px;
   border: none;
   color: white;

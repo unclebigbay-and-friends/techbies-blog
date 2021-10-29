@@ -2,13 +2,13 @@
 
 /* variables */
 :root {
-  --heading-text-: #00000;
-  --body-text-: #3b3b3b;
-  --white-: #ffffff;
-  --blue-: #2962ff;
-  --warning-: #ff6535;
-  --green-: #00af65;
-  --light-green-: #0ee78c;
+  --heading-text: #00000;
+  --body-text: #3b3b3b;
+  --white: #ffffff;
+  --blue: #2962ff;
+  --warning: #ff6535;
+  --green: #00af65;
+  --light-green: #0ee78c;
 }
 /* browser reset */
 body,
@@ -18,7 +18,98 @@ html {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-.header-nav ul a {
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 0 3.12rem; */
+  width: 1440px;
+  height: 134px;
+}
+.header-nav {
+  /* width: 626px; */
+  height: 46.54px;
+}
+.header-nav li {
+  display: inline;
+  padding: 0 15px;
+  font-size: 18px;
+  list-style: none;
+}
+.header-nav a {
+  text-decoration: none;
+  color: var(--header-text);
+  font-weight: 500;
+}
+.vl {
+  border-right: 2px solid var(--body-text);
+  height: 600px;
+  display: inline;
+  padding: 10px 0;
+  margin-right: 20px;
+}
+.header-logo > img {
+  width: 259.9px;
+  height: 70px;
+  padding: 20px 0;
+}
+.Sign-up {
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 6.5px 18px;
+  color: var(--blue);
+}
+.header-nav li:last-child {
+  color: var(--blue);
+}
+
+.hero-section{
+  width: 1440px;
+  height: 724px;
+  background: url(./Assets/images/First-Hero-Img.png)
+;
+position: relative;
+}
+
+.hero-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+}
+.hero-info h3{
+  width: 784px;
+height: 107px;
+text-align: center;
+letter-spacing: 0.02em;
+line-height: 62px;
+font-weight: 700;
+font-size: 50px;
+font-style: normal;
+color: var(--white);
+}
+.btn{
+   display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 175px;
+height: 50px;
+padding: 15px 27px;
+border: 1px solid transparent;
+border-radius: 7px;
+background: var(--light-green);
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+text-align: right;
+letter-spacing: 0.02em;
+}
+/* .header-nav ul a {
   text-decoration: none;
   color: var(--header-text);
   font-weight: bold;
@@ -52,8 +143,8 @@ html {
   align-items: center;
   text-align: center;
 }
-.header-logo {
-  padding-left: 50px;
+.header-logo > img {
+  width: 200px;
 }
 .home h1 {
   padding: 2.5rem 0 0 2.5rem;
@@ -82,7 +173,7 @@ html {
   font-size: 0.95rem;
   text-align: none;
   font-weight: lighter;
-  /* max-width: 400px; */
+  max-width: 400px;
   padding: 0 3rem;
   margin: 0 0 2rem 0;
 }
